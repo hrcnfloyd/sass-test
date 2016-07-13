@@ -1,0 +1,120 @@
+/* main style sheet imports other scss */
+/* variables */
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*custom styles*/
+/* line 2, ../sass/custom.scss */
+header {
+  margin: 0;
+  border-top: solid 2px #e81937;
+}
+/* line 5, ../sass/custom.scss */
+header nav {
+  font-family: "Montserrat", sans-serif;
+}
+/* line 10, ../sass/custom.scss */
+header nav .container .navbar-header .navbar-brand img {
+  height: 30px;
+}
+
+/* line 21, ../sass/custom.scss */
+.jumbotron {
+  background-image: url("../images/textured-bg.png");
+  background-repeat: none;
+  color: #FFFFFF;
+}
+/* line 26, ../sass/custom.scss */
+.jumbotron .container h1, .jumbotron .container h2, .jumbotron .container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+/* line 31, ../sass/custom.scss */
+.jumbotron .container p, .jumbotron .container li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  padding: 10px 0;
+}
+/* line 38, ../sass/custom.scss */
+.jumbotron .container .row .col-md-5 img {
+  width: 50%;
+  text-align: right;
+}
+/* line 44, ../sass/custom.scss */
+.jumbotron .container .row .col-md-7 img {
+  width: 50%;
+}

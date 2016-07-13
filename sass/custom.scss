@@ -1,0 +1,50 @@
+/*custom styles*/
+header {
+	margin:0;
+	border-top: solid 2px $nav-border-color;
+	nav {
+		font-family:$displayfont;
+		.container {
+			.navbar-header {
+				.navbar-brand {
+					img {
+						height: 30px;
+					}
+				}
+			}
+		}
+		
+	}
+}
+
+
+.jumbotron {
+	background-image:$jumbo-bg;
+	background-repeat:none;
+	color:$jumbo-color;
+	.container {
+		h1,h2,h3 {
+			font-family:$displayfont;
+			font-size:$jumbo-display;
+			//padding: $jumbo-padding 0;
+		}
+		p, li {
+			font-family:$copyfont;
+			font-size:$jumbo-copy;
+			padding: $jumbo-padding 0;
+		}
+		.row {
+			.col-md-5 {
+				img {
+					width:50%;
+					text-align:right;
+				}
+			}
+			.col-md-7 {
+				img {
+					width:50%;
+				}
+			}
+		}
+	}
+}
